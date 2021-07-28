@@ -1,0 +1,41 @@
+/* move in left */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* move in right */
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translatex(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* move in bottom */
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
